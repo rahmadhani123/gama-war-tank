@@ -19,7 +19,7 @@ screen_info = pygame.display.Info()
 screen_width = screen_info.current_w
 screen_height = screen_info.current_h
 screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
-pygame.display.set_caption("Kuis 100 Juta")
+pygame.display.set_caption("Kuis 1 Juta")
 
 # --- Warna ---
 white = (255, 255, 255)
@@ -61,7 +61,7 @@ def load_questions(filename):
 def main_menu():
     while True:
         screen.fill(black)
-        draw_text('Kuis 100 Juta', font, white, screen, screen_width / 2, screen_height / 4)
+        draw_text('Kuis 1 Juta', font, white, screen, screen_width / 2, screen_height / 4)
         mx, my = pygame.mouse.get_pos()
 
         button_start = pygame.Rect(screen_width / 2 - 100, screen_height / 2 - 50, 200, 50)
@@ -144,7 +144,7 @@ def game():
     score = 0
     help_5050_used = False
 
-    prize_levels = [0, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000, 5000000, 10000000, 100000000]
+    prize_levels = [0, 100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
 
     running = True
     while running and question_index < len(questions):

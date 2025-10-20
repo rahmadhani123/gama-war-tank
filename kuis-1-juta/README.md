@@ -1,6 +1,6 @@
-# Kuis 100 Juta
+# Kuis 1 Juta
 
-Gim kuis 2D di mana pemain menjawab pertanyaan untuk memenangkan hadiah utama 100 juta.
+Game kuis 2D di mana pemain menjawab pertanyaan untuk memenangkan hadiah utama 1 Juta.
 
 ## Fitur
 
