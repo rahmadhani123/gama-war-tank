@@ -10,13 +10,493 @@
         "answer": "Soekarno"
     },
     {
-        "question": "Apa warna bendera Indonesia?",
-        "options": ["Merah Putih", "Putih Merah", "Merah Biru", "Biru Putih"],
-        "answer": "Merah Putih"
+        "question": "Kapan Indonesia merdeka?",
+        "options": ["1942", "1945", "1949", "1950"],
+        "answer": "1945"
     },
     {
-        "question": "Berapa jumlah provinsi di Indonesia saat ini?",
-        "options": ["34", "35", "37", "38"],
+        "question": "Siapa yang menjahit bendera pusaka Indonesia?",
+        "options": ["R.A. Kartini", "Cut Nyak Dien", "Fatmawati", "Dewi Sartika"],
+        "answer": "Fatmawati"
+    },
+    {
+        "question": "Gunung tertinggi di Indonesia adalah...",
+        "options": ["Gunung Rinjani", "Gunung Semeru", "Puncak Jaya", "Gunung Kerinci"],
+        "answer": "Puncak Jaya"
+    },
+    {
+        "question": "Apa nama candi Buddha terbesar di dunia yang terletak di Indonesia?",
+        "options": ["Prambanan", "Borobudur", "Mendut", "Pawon"],
+        "answer": "Borobudur"
+    },
+    {
+        "question": "Lagu kebangsaan Indonesia adalah...",
+        "options": ["Indonesia Pusaka", "Garuda Pancasila", "Indonesia Raya", "Satu Nusa Satu Bangsa"],
+        "answer": "Indonesia Raya"
+    },
+    {
+        "question": "Siapa komponis lagu 'Indonesia Raya'?",
+        "options": ["Ismail Marzuki", "C. Simanjuntak", "W.R. Supratman", "Ibu Sud"],
+        "answer": "W.R. Supratman"
+    },
+    {
+        "question": "Apa semboyan negara Indonesia?",
+        "options": ["Tut Wuri Handayani", "Bhinneka Tunggal Ika", "Garuda di Dadaku", "Merdeka atau Mati"],
+        "answer": "Bhinneka Tunggal Ika"
+    },
+    {
+        "question": "Pulau terbesar di Indonesia adalah...",
+        "options": ["Jawa", "Sumatera", "Sulawesi", "Kalimantan"],
+        "answer": "Kalimantan"
+    },
+    {
+        "question": "Apa nama danau vulkanik terbesar di dunia yang ada di Sumatera Utara?",
+        "options": ["Danau Maninjau", "Danau Singkarak", "Danau Toba", "Danau Ranau"],
+        "answer": "Danau Toba"
+    },
+    {
+        "question": "Hewan endemik Indonesia yang menjadi kadal terbesar di dunia adalah...",
+        "options": ["Biawak", "Komodo", "Tokek", "Iguana"],
+        "answer": "Komodo"
+    },
+    {
+        "question": "Rendang adalah makanan khas dari provinsi...",
+        "options": ["Jawa Barat", "Sumatera Selatan", "Sumatera Barat", "Aceh"],
+        "answer": "Sumatera Barat"
+    },
+    {
+        "question": "Siapakah pahlawan nasional yang dikenal sebagai Bapak Pendidikan Nasional?",
+        "options": ["Mohammad Hatta", "Ki Hajar Dewantara", "Pangeran Diponegoro", "Soekarno"],
+        "answer": "Ki Hajar Dewantara"
+    },
+    {
+        "question": "Planet terdekat dari Matahari adalah...",
+        "options": ["Venus", "Mars", "Merkurius", "Bumi"],
+        "answer": "Merkurius"
+    },
+    {
+        "question": "Apa rumus kimia untuk air?",
+        "options": ["CO2", "O2", "H2O", "NaCl"],
+        "answer": "H2O"
+    },
+    {
+        "question": "Siapakah penemu telepon?",
+        "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+        "answer": "Alexander Graham Bell"
+    },
+    {
+        "question": "Gaya yang menarik benda ke pusat bumi disebut...",
+        "options": ["Sentrifugal", "Magnetik", "Kinetik", "Gravitasi"],
+        "answer": "Gravitasi"
+    },
+    {
+        "question": "Hewan tercepat di darat adalah...",
+        "options": ["Singa", "Kuda", "Cheetah", "Gazelle"],
+        "answer": "Cheetah"
+    },
+    {
+        "question": "Siapakah ilmuwan yang mengembangkan teori relativitas?",
+        "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
+        "answer": "Albert Einstein"
+    },
+    {
+        "question": "Berapa jumlah planet di Tata Surya kita?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "8"
+    },
+    {
+        "question": "Satelit alami Bumi adalah...",
+        "options": ["Phobos", "Titan", "Bulan", "Europa"],
+        "answer": "Bulan"
+    },
+    {
+        "question": "Siapakah pelukis 'Mona Lisa'?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "Alat musik tradisional dari Jawa Barat yang terbuat dari bambu adalah...",
+        "options": ["Gamelan", "Suling", "Angklung", "Sasando"],
+        "answer": "Angklung"
+    },
+    {
+        "question": "Siapakah penulis novel 'Laskar Pelangi'?",
+        "options": ["Pramoedya Ananta Toer", "Andrea Hirata", "Tere Liye", "Dewi Lestari"],
+        "answer": "Andrea Hirata"
+    },
+    {
+        "question": "Film Indonesia pertama yang memenangkan Piala Citra untuk Film Terbaik adalah...",
+        "options": ["Tiga Dara", "Darah dan Doa", "Lewat Djam Malam", "Harimau Tjampa"],
+        "answer": "Lewat Djam Malam"
+    },
+    {
+        "question": "Mata uang negara Jepang adalah...",
+        "options": ["Won", "Yuan", "Yen", "Ringgit"],
+        "answer": "Yen"
+    },
+    {
+        "question": "Berapa jumlah pemain dalam satu tim sepak bola?",
+        "options": ["9", "10", "11", "12"],
+        "answer": "11"
+    },
+    {
+        "question": "Olimpiade modern diadakan setiap... tahun sekali.",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+    },
+    {
+        "question": "Apa ibukota Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "answer": "Canberra"
+    },
+    {
+        "question": "Siapakah pendiri Facebook?",
+        "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Larry Page"],
+        "answer": "Mark Zuckerberg"
+    },
+    {
+        "question": "Berapa hari dalam setahun kabisat?",
+        "options": ["364", "365", "366", "367"],
+        "answer": "366"
+    },
+    {
+        "question": "Mamalia terbesar di dunia adalah...",
+        "options": ["Gajah Afrika", "Paus Biru", "Jerapah", "Hiu Putih"],
+        "answer": "Paus Biru"
+    },
+    {
+        "question": "Siapakah manusia pertama yang berjalan di bulan?",
+        "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+        "answer": "Neil Armstrong"
+    },
+    {
+        "question": "Unsur kimia dengan simbol 'O' adalah...",
+        "options": ["Emas", "Oksigen", "Perak", "Osmium"],
+        "answer": "Oksigen"
+    },
+    {
+        "question": "Di negara manakah Menara Eiffel berada?",
+        "options": ["Italia", "Inggris", "Prancis", "Spanyol"],
+        "answer": "Prancis"
+    },
+    {
+        "question": "Dewa petir dalam mitologi Yunani Kuno adalah...",
+        "options": ["Apollo", "Poseidon", "Zeus", "Hades"],
+        "answer": "Zeus"
+    },
+    {
+        "question": "Siapakah pahlawan wanita dari Aceh yang terkenal?",
+        "options": ["R.A. Kartini", "Dewi Sartika", "Cut Nyak Dien", "Martha Christina Tiahahu"],
+        "answer": "Cut Nyak Dien"
+    },
+    {
+        "question": "Siapakah yang menulis drama 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "Bahan utama pembuatan cokelat adalah...",
+        "options": ["Kopi", "Teh", "Biji Kakao", "Gula Tebu"],
+        "answer": "Biji Kakao"
+    },
+    {
+        "question": "Perusahaan teknologi yang didirikan oleh Steve Jobs adalah...",
+        "options": ["Microsoft", "Google", "Amazon", "Apple"],
+        "answer": "Apple"
+    },
+    {
+        "question": "Berapa jumlah sisi yang dimiliki sebuah kubus?",
+        "options": ["4", "6", "8", "12"],
+        "answer": "6"
+    },
+    {
+        "question": "Vitamin yang banyak terkandung dalam buah jeruk adalah...",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "answer": "Vitamin C"
+    },
+    {
+        "question": "Olahraga yang menggunakan shuttlecock disebut...",
+        "options": ["Tenis", "Tenis Meja", "Bulu Tangkis", "Squash"],
+        "answer": "Bulu Tangkis"
+    },
+    {
+        "question": "Di kota manakah Patung Liberty berada?",
+        "options": ["Washington D.C.", "Los Angeles", "New York", "Chicago"],
+        "answer": "New York"
+    },
+    {
+        "question": "Siapakah pencipta karakter Mickey Mouse?",
+        "options": ["Hanna-Barbera", "Warner Bros.", "Walt Disney", "Pixar"],
+        "answer": "Walt Disney"
+    },
+    {
+        "question": "Sungai terpanjang di Indonesia adalah...",
+        "options": ["Sungai Musi", "Sungai Mahakam", "Sungai Kapuas", "Sungai Barito"],
+        "answer": "Sungai Kapuas"
+    },
+    {
+        "question": "Siapakah penulis seri buku 'Harry Potter'?",
+        "options": ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling", "Suzanne Collins"],
+        "answer": "J.K. Rowling"
+    },
+    {
+        "question": "Makanan khas Yogyakarta yang terbuat dari nangka muda adalah...",
+        "options": ["Rawon", "Soto", "Gudeg", "Sate"],
+        "answer": "Gudeg"
+    },
+    {
+        "question": "Benua terkecil di dunia adalah...",
+        "options": ["Eropa", "Antartika", "Australia", "Amerika Selatan"],
+        "answer": "Australia"
+    },
+    {
+        "question": "Siapakah penemu lampu pijar?",
+        "options": ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Marie Curie"],
+        "answer": "Thomas Edison"
+    },
+    {
+        "question": "Hewan nasional Indonesia adalah...",
+        "options": ["Harimau Sumatera", "Orangutan", "Elang Jawa", "Komodo"],
+        "answer": "Komodo"
+    },
+    {
+        "question": "Siapakah ilmuwan yang menemukan penisilin?",
+        "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Joseph Lister"],
+        "answer": "Alexander Fleming"
+    },
+    {
+        "question": "Bangunan miring yang terkenal di Italia adalah...",
+        "options": ["Koloseum", "Menara Pisa", "Duomo di Firenze", "St. Peter's Basilica"],
+        "answer": "Menara Pisa"
+    },
+    {
+        "question": "Siapakah penemu World Wide Web (WWW)?",
+        "options": ["Bill Gates", "Steve Wozniak", "Tim Berners-Lee", "Vint Cerf"],
+        "answer": "Tim Berners-Lee"
+    },
+    {
+        "question": "Siapakah pahlawan dari Maluku yang gambarnya ada di uang seribu rupiah?",
+        "options": ["Pangeran Diponegoro", "Tuanku Imam Bonjol", "Pattimura", "Sultan Hasanuddin"],
+        "answer": "Pattimura"
+    },
+    {
+        "question": "Tahun berapa Sumpah Pemuda diikrarkan?",
+        "options": ["1926", "1928", "1930", "1945"],
+        "answer": "1928"
+    },
+    {
+        "question": "Samudra terluas di dunia adalah...",
+        "options": ["Atlantik", "Hindia", "Arktik", "Pasifik"],
+        "answer": "Pasifik"
+    },
+    {
+        "question": "Sungai terpanjang di dunia adalah...",
+        "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
+        "answer": "Nil"
+    },
+    {
+        "question": "Negara dengan populasi terbanyak di dunia saat ini adalah...",
+        "options": ["Tiongkok", "Amerika Serikat", "India", "Indonesia"],
+        "answer": "India"
+    },
+    {
+        "question": "Benua yang dijuluki 'Benua Hitam' adalah...",
+        "options": ["Asia", "Afrika", "Eropa", "Amerika"],
+        "answer": "Afrika"
+    },
+    {
+        "question": "Di mana letak Tembok Besar?",
+        "options": ["India", "Jepang", "Tiongkok", "Mesir"],
+        "answer": "Tiongkok"
+    },
+    {
+        "question": "Apa ibukota dari Rusia?",
+        "options": ["St. Petersburg", "Moskow", "Kyiv", "Minsk"],
+        "answer": "Moskow"
+    },
+    {
+        "question": "Siapa Firaun terkenal yang makamnya ditemukan utuh pada tahun 1922?",
+        "options": ["Ramesses II", "Cleopatra", "Tutankhamun", "Akhenaten"],
+        "answer": "Tutankhamun"
+    },
+    {
+        "question": "Unsur paling melimpah di atmosfer bumi adalah...",
+        "options": ["Oksigen", "Karbon Dioksida", "Nitrogen", "Argon"],
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "Proses tumbuhan membuat makanan sendiri disebut...",
+        "options": ["Respirasi", "Transpirasi", "Fotosintesis", "Evolusi"],
+        "answer": "Fotosintesis"
+    },
+    {
+        "question": "Apa nama galaksi tempat Tata Surya kita berada?",
+        "options": ["Andromeda", "Triangulum", "Bima Sakti", "Sombrero"],
+        "answer": "Bima Sakti"
+    },
+    {
+        "question": "Berapa banyak jantung yang dimiliki gurita?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+    },
+    {
+        "question": "Siapa penulis 'Don Quixote'?",
+        "options": ["Fyodor Dostoevsky", "Miguel de Cervantes", "Leo Tolstoy", "Victor Hugo"],
+        "answer": "Miguel de Cervantes"
+    },
+    {
+        "question": "Tari Kecak berasal dari...",
+        "options": ["Jawa", "Sumatera", "Bali", "Kalimantan"],
+        "answer": "Bali"
+    },
+    {
+        "question": "Apa ibukota dari Kanada?",
+        "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "answer": "Ottawa"
+    },
+    {
+        "question": "Dalam sepak bola, penghargaan untuk pencetak gol terbanyak di Piala Dunia adalah...",
+        "options": ["Bola Emas", "Sepatu Emas", "Sarung Tangan Emas", "Pemain Terbaik"],
+        "answer": "Sepatu Emas"
+    },
+    {
+        "question": "Kerajaan Hindu-Buddha pertama di Nusantara adalah...",
+        "options": ["Majapahit", "Sriwijaya", "Singasari", "Kutai"],
+        "answer": "Kutai"
+    },
+    {
+        "question": "Apa nama jembatan yang menghubungkan Surabaya dan Madura?",
+        "options": ["Jembatan Ampera", "Jembatan Pasupati", "Jembatan Suramadu", "Jembatan Barito"],
+        "answer": "Jembatan Suramadu"
+    },
+    {
+        "question": "Siapa arsitek Masjid Istiqlal di Jakarta?",
+        "options": ["Ridwan Kamil", "Soejoedi Wirjoatmodjo", "Frederich Silaban", "Ahmad Noe'man"],
+        "answer": "Frederich Silaban"
+    },
+    {
+        "question": "Bunga Nasional Indonesia adalah...",
+        "options": ["Bunga Anggrek Bulan", "Bunga Rafflesia", "Bunga Melati Putih", "Bunga Bangkai"],
+        "answer": "Bunga Melati Putih"
+    },
+    {
+        "question": "Siapa perdana menteri pertama India?",
+        "options": ["Mahatma Gandhi", "Indira Gandhi", "Jawaharlal Nehru", "Sardar Patel"],
+        "answer": "Jawaharlal Nehru"
+    },
+    {
+        "question": "Gunung berapi tertinggi di Jepang adalah...",
+        "options": ["Gunung Ontake", "Gunung Fuji", "Gunung Asama", "Gunung Kita"],
+        "answer": "Gunung Fuji"
+    },
+    {
+        "question": "Apa nama samudera yang berada di antara benua Amerika, Eropa, dan Afrika?",
+        "options": ["Pasifik", "Hindia", "Atlantik", "Arktik"],
+        "answer": "Atlantik"
+    },
+    {
+        "question": "Berapa jumlah provinsi di Indonesia saat ini (2024)?",
+        "options": ["34", "36", "37", "38"],
         "answer": "38"
+    },
+    {
+        "question": "Perangkat keras komputer yang disebut sebagai 'otak' komputer adalah...",
+        "options": ["RAM", "Hard Drive", "Motherboard", "CPU"],
+        "answer": "CPU"
+    },
+    {
+        "question": "Siapa yang pertama kali mengemukakan teori heliosentris (Matahari sebagai pusat tata surya)?",
+        "options": ["Ptolemy", "Galileo Galilei", "Nicolaus Copernicus", "Johannes Kepler"],
+        "answer": "Nicolaus Copernicus"
+    },
+    {
+        "question": "Apa gas yang paling banyak menyusun Matahari?",
+        "options": ["Oksigen", "Helium", "Hidrogen", "Karbon"],
+        "answer": "Hidrogen"
+    },
+    {
+        "question": "Lukisan 'Starry Night' (Malam Berbintang) adalah karya dari...",
+        "options": ["Claude Monet", "Vincent van Gogh", "Edvard Munch", "Pablo Picasso"],
+        "answer": "Vincent van Gogh"
+    },
+    {
+        "question": "Gedung tertinggi di dunia saat ini (2024) adalah...",
+        "options": ["Shanghai Tower", "Merdeka 118", "Burj Khalifa", "Abraj Al-Bait"],
+        "answer": "Burj Khalifa"
+    },
+    {
+        "question": "Apa ibukota dari Brazil?",
+        "options": ["Rio de Janeiro", "São Paulo", "Brasilia", "Salvador"],
+        "answer": "Brasilia"
+    },
+    {
+        "question": "Siapakah 'The King of Pop'?",
+        "options": ["Elvis Presley", "Michael Jackson", "James Brown", "Freddie Mercury"],
+        "answer": "Michael Jackson"
+    },
+    {
+        "question": "Apa nama bandara internasional utama di Jakarta?",
+        "options": ["Halim Perdanakusuma", "Husein Sastranegara", "Soekarno-Hatta", "Juanda"],
+        "answer": "Soekarno-Hatta"
+    },
+    {
+        "question": "Perang yang terjadi antara Korea Utara dan Korea Selatan pada 1950-1953 disebut...",
+        "options": ["Perang Vietnam", "Perang Dingin", "Perang Korea", "Perang Teluk"],
+        "answer": "Perang Korea"
+    },
+    {
+        "question": "Siapakah dewi kebijaksanaan dalam mitologi Yunani?",
+        "options": ["Hera", "Aphrodite", "Artemis", "Athena"],
+        "answer": "Athena"
+    },
+    {
+        "question": "Bahan apa yang membuat darah berwarna merah?",
+        "options": ["Plasma", "Trombosit", "Hemoglobin", "Leukosit"],
+        "answer": "Hemoglobin"
+    },
+    {
+        "question": "Apa nama ibukota Turki?",
+        "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+        "answer": "Ankara"
+    },
+    {
+        "question": "Siapakah presiden Amerika Serikat yang terkenal dengan pidato 'I Have a Dream'?",
+        "options": ["Abraham Lincoln", "John F. Kennedy", "Martin Luther King Jr.", "Franklin D. Roosevelt"],
+        "answer": "Martin Luther King Jr."
+    },
+    {
+        "question": "Apa nama kapal yang ditumpangi Christopher Columbus saat menemukan Amerika?",
+        "options": ["Mayflower", "Endeavour", "Santa Maria", "Victoria"],
+        "answer": "Santa Maria"
+    },
+    {
+        "question": "Gurun terbesar di dunia adalah...",
+        "options": ["Sahara", "Gobi", "Arab", "Antartika"],
+        "answer": "Antartika"
+    },
+    {
+        "question": "Apa nama benua yang hilang yang legendaris?",
+        "options": ["Pangaea", "Gondwana", "Lemuria", "Atlantis"],
+        "answer": "Atlantis"
+    },
+    {
+        "question": "Siapa yang menulis 'The Lord of the Rings'?",
+        "options": ["C.S. Lewis", "J.K. Rowling", "J.R.R. Tolkien", "George R.R. Martin"],
+        "answer": "J.R.R. Tolkien"
+    },
+    {
+        "question": "Apa nama ibukota Spanyol?",
+        "options": ["Barcelona", "Seville", "Madrid", "Lisbon"],
+        "answer": "Madrid"
+    },
+    {
+        "question": "Apa nama mata uang resmi Uni Eropa?",
+        "options": ["Franc", "Mark", "Euro", "Pound"],
+        "answer": "Euro"
+    },
+    {
+        "question": "Kerajaan maritim besar yang berpusat di Sumatera adalah...",
+        "options": ["Majapahit", "Tarumanegara", "Sriwijaya", "Mataram Kuno"],
+        "answer": "Sriwijaya"
     }
 ]
