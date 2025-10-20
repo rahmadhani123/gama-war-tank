@@ -10,14 +10,15 @@ pygame.init()
 pygame.mixer.init()
 
 # --- Pengaturan Proyek ---
-# Mendapatkan path absolut ke direktori skrip untuk memastikan path sumber daya yang andal
 script_dir = os.path.dirname(__file__)
 project_root = os.path.abspath(os.path.join(script_dir, '..'))
 
 # --- Pengaturan Layar ---
-screen_width = 800
-screen_height = 600
-screen = pygame.display.set_mode((screen_width, screen_height))
+# Mengatur mode layar penuh
+screen_info = pygame.display.Info()
+screen_width = screen_info.current_w
+screen_height = screen_info.current_h
+screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 pygame.display.set_caption("Kuis 100 Juta")
 
 # --- Warna ---
@@ -36,8 +37,6 @@ question_font = pygame.font.Font(None, 50)
 feedback_font = pygame.font.Font(None, 60)
 
 # --- Suara dan Musik ---
-# CATATAN: Berkas audio saat ini adalah placeholder kosong.
-# Ganti berkas .mp3 dan .wav di direktori 'assets/sounds' dengan berkas audio Anda sendiri.
 try:
     pygame.mixer.music.load(os.path.join(project_root, 'assets', 'sounds', 'background_music.mp3'))
     correct_sound = pygame.mixer.Sound(os.path.join(project_root, 'assets', 'sounds', 'correct_answer.wav'))
@@ -46,7 +45,6 @@ try:
     pygame.mixer.music.play(-1)
 except pygame.error as e:
     print(f"Peringatan: Tidak dapat memuat berkas suara. Game akan berjalan tanpa audio. Error: {e}")
-    # Buat objek suara tiruan agar game tidak crash
     correct_sound, wrong_sound, click_sound = [pygame.mixer.Sound(buffer=b'') for _ in range(3)]
 
 # --- Fungsi Utilitas ---
@@ -78,6 +76,10 @@ def main_menu():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE: # Izinkan keluar dengan tombol Esc
+                    pygame.quit()
+                    sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 if button_start.collidepoint(mx, my):
                     click_sound.play()
@@ -96,18 +98,34 @@ def show_feedback(message, color, duration=2):
 
 def draw_game_screen(question_data, score, prize_levels, displayed_answers, help_5050_used):
     screen.fill(black)
-    draw_text(question_data["question"], question_font, white, screen, screen_width / 2, screen_height / 4)
+
+    # Membungkus teks pertanyaan jika terlalu panjang
+    question_lines = []
+    words = question_data["question"].split(' ')
+    current_line = ""
+    for word in words:
+        if question_font.size(current_line + " " + word)[0] < screen_width - 100:
+            current_line += " " + word
+        else:
+            question_lines.append(current_line.strip())
+            current_line = word
+    question_lines.append(current_line.strip())
+
+    line_y = screen_height / 4
+    for line in question_lines:
+        draw_text(line, question_font, white, screen, screen_width / 2, line_y)
+        line_y += question_font.get_linesize()
+
+
     draw_text(f"Hadiah: Rp {prize_levels[score]:,}", button_font, white, screen, screen_width / 2, 50)
 
-    # Tombol bantuan 50:50
     button_5050 = pygame.Rect(screen_width - 160, 40, 120, 40)
     if not help_5050_used:
         pygame.draw.rect(screen, orange, button_5050)
         draw_text('50:50', button_font, black, screen, button_5050.centerx, button_5050.centery)
 
-    # Tombol jawaban
     answer_buttons = []
-    button_y = screen_height / 2 - 50
+    button_y = screen_height / 2
     for i, answer in enumerate(displayed_answers):
         if answer:
             button = pygame.Rect(screen_width / 2 - 250, button_y + i * 60, 500, 50)
@@ -145,7 +163,8 @@ def game():
                     pygame.quit()
                     sys.exit()
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                    running, answered = False, True
+                    main_menu() # Kembali ke menu utama
+                    return
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     if not help_5050_used and button_5050.collidepoint(mx, my):
                         click_sound.play()
