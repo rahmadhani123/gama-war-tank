@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Apa ibukota Indonesia?",
+        "options": ["Jakarta", "Bandung", "Surabaya", "Medan"],
+        "answer": "Jakarta"
+    },
+    {
+        "question": "Siapakah presiden pertama Indonesia?",
+        "options": ["Soeharto", "Soekarno", "B.J. Habibie", "Megawati"],
+        "answer": "Soekarno"
+    },
+    {
+        "question": "Apa warna bendera Indonesia?",
+        "options": ["Merah Putih", "Putih Merah", "Merah Biru", "Biru Putih"],
+        "answer": "Merah Putih"
+    },
+    {
+        "question": "Berapa jumlah provinsi di Indonesia saat ini?",
+        "options": ["34", "35", "37", "38"],
+        "answer": "38"
+    }
+]
